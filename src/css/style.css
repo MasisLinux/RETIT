@@ -1,0 +1,198 @@
+/* .main {
+    background-color: ;
+} */
+
+body {
+    background-color: slategray
+}
+
+
+.exchange-section {
+    height: 60vh;
+    border: 1px dashed black;
+    border-color: black;
+}
+
+
+
+
+/* iframe {
+    height: 65vh;
+    max-width: 1640px;
+    margin: 5px auto;
+    width: 100%;
+} */
+
+.main-calc {
+    border:2px solid #292929;
+    background-color: #f0e68c;
+    height: 400px;
+    width: 350px;
+    margin:10px auto;
+     
+ }
+
+ .num-block{
+    margin: 10px;
+    border-radius: 26px 26px;
+    display:flex;
+    justify-content: center; 
+ }
+
+ .num-block button {
+    margin: 15px; 
+    border-radius:50%;
+    outline: none;
+    border:1px solid #e4e4e4 ;
+    /* background-color: ; */
+    width: 50px;
+    height: 50px;
+   
+ }
+
+ .simbols-block {
+    flex-direction:column;
+    margin-left: 0;
+ }
+
+ .key-pad {
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .calc-section {
+     border: 1px dashed #131233
+    }
+    
+.convert-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;           
+ }
+
+.convert_parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 10px;
+}
+
+.span {
+    color: #1b2a3a;
+    border:1px solid none;
+    padding: 2px 6px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+.convert-to {
+    border: 2px solid none;
+    margin: 10px;
+}
+
+.convert-from {
+    border: 2px solid none;
+    margin: 10px;
+    
+}
+
+.converters {
+    margin: 20px;
+    border-color: #34495e;
+    height: 70px; 
+}
+
+.convert-btn,
+.reverser,
+.currency-icon,
+.menu {
+    cursor: pointer;
+}
+
+
+.currency-icon {
+    width: 25px;
+    height: 25px;
+}
+
+
+.currency-label {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+
+.currency-parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.simbol-AC {
+    border: 2px dashed #16a085
+}
+
+.simbol-btn {
+    border: 1px solid none;
+    background-color: #16a085;
+}
+
+.number-btn-2 {
+    border: 1px dashed none;
+    background-color: #f39c12;   
+}
+
+.number-btn-3 {
+    border: 1px solid none;
+    background-color: #e74c3c;
+}
+
+.number-btn-4 {
+    border: 1px solid none;
+    background-color: #9b59b6;
+}
+
+.backspace-btn {
+    background-color: #3c6382;
+    margin: 5px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.simbol-btn {
+    background-color: #f1c40f;
+    border-radius: 12px;    
+    margin: 5px;
+    outline: none;
+}
+
+.simbol-AC {
+    background-color: #78e08f;
+    margin: 5px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.menu {
+    border:1px dashed none;
+    background-color: white;
+    height: 50px;
+    width: 609px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.about-button {
+    border: none;
+    width: 100px;
+    font-size: x-large;
+    background-color: #38ADA9;
+}
+

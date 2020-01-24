@@ -1,0 +1,11 @@
+.main {
+    background-color: slategray;
+    height: 100vh;
+}
+
+.img {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 26px;
+}

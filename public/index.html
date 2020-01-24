@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Retit</title>
+    <link href="/src/css/style.css" rel="stylesheet" type="" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="menu">
+        <div class="about-section">
+            <button class="about-button" >
+                <a href="/public/html/AboutSection.html" color="black">
+                    About
+                </a>
+            </button>
+        </div>
+    </div>
+
+    <div class="exchange-section">
+
+        <div class="convert-parent">
+                
+            <div class="convert-from currency-parent">
+                <select name="convert_from" id="">
+                    <option value="usd">
+                        USD
+                    </option>
+
+                    <option value="amd">
+                        AMD
+                    </option>
+
+                    <option value="euro">
+                        EUR
+                    </option>
+
+                    <option value="rub">
+                        RUB
+                    </option>
+
+                    <option value="pound">
+                        GBP                    
+                    </option>
+
+                    <option value="gel">
+                        GEL
+                    </option>
+                    
+                    <option value="byn">
+                        BYN
+                    </option>
+
+                </select>
+
+
+            <div class="convert-to currency-parent">
+
+                <select name="convert_to" id="">
+                    <option value="amd">
+                        AMD
+                    </option>
+
+                    <option value="usd">
+                        USD
+                    </option>
+
+                    <option value="euro">
+                        EUR
+                    </option>
+
+                    <option value="rub">
+                        RUB
+                    </option>
+
+                    <option value="pound">
+                        GBP
+                    </option>
+
+                    <option value="gel">
+                        GEL
+                    </option>
+
+                    <option value="byn">
+                        BYN
+                    </option>
+
+                </select>
+            
+        </div>
+        <div class="convert_parent">
+            <input class="converters" type = "number" id="convert_from"  value="1"  />
+            <span class="span reverser"> <i class="fa fa-play" aria-hidden="true"></i></span>
+            <input class="converters" type = "number" id="convert_to" />
+        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- calculate-->
+    <div class="calc-section">
+    <!-- <iframe src="https://masislinux.github.io/Calculator-JS-/" frameborder="0"></iframe> -->
+    <div class="main-calc">
+
+        <form>
+        <label for = "inpu-val">
+                    
+        <input type="text"  id="input-val" placeholder="0">
+                    
+        </label> 
+                
+    <button onclick="deleteInput(event)" class="simbol-AC" >
+            AC
+        </button>
+        
+        <button onclick="returnEqual(event)" class="simbol-btn">
+                =
+            </button>
+            <button value="Del" id="del" class="backspace-btn" onclick="back(event)">
+                Del
+            </button>
+            
+            <p id="output">
+                
+            </p>
+            <!-- <button id="submit-button"> 
+                get-value
+            </button> -->
+        <div class="key-pad">
+            <div class="numbers">
+                    <div class="num-block">
+    <button class="number" value = "1"  >
+                        1
+            </button>
+        <button class="number" value = "2" >
+            2
+        </button>
+        <button class="number" value = "3" >
+            3
+        </button>
+        
+        </div>
+
+    <div class="num-block">
+
+        <button class="number" value = "4" >
+            4
+        </button>
+        <button class="number" value = "5" >
+            5
+        </button>
+        <button class="number" value = "6" >
+            6
+            </button>
+
+        </div>
+
+    <div class="num-block">
+        
+        <button class="number" value ="7" >
+            7
+        </button>
+        <button class="number" value = "8">
+            8
+        </button>
+        <button class="number" value = "9" >
+            9
+        </button>
+        </div>
+
+    <div class="num-block">
+        <button class="number" value = "0" >
+            0
+        </button>                   
+        <button class="number" value=".">
+                    .
+        </button>
+        </div> 
+
+    </div>
+        <div class="simbols"> 
+            <div class="simbols-block num-block">
+            <button class="number number-btn"value="+"> 
+                        +
+            </button>
+            <button class="number number-btn-2" value="-">
+                -
+            </button>
+            <button class="number number-btn-3" value="*">
+                *
+            </button>
+            <button class="number number-btn-4" value="/">
+                /
+            </button>
+            
+
+        </div>
+            </div>
+            
+            </div>       
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="/src/js/calc.js"></script>        
+<script src="/src/js/script.js"></script>
+</body>
+</html>

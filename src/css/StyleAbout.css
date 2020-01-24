@@ -9,3 +9,32 @@
     justify-content: center;
     border-radius: 26px;
 }
+
+.my-img {
+    width: 100px;
+    border: 1px solid black;
+    margin: 0 10px 5px 20px;
+}
+
+.about {
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+    border-radius: 16px;
+    background-color: #bdc3c7;
+}
+
+.img-parent {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.text-parent  h4 {
+    font-size: 22px;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
